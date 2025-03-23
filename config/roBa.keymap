@@ -96,10 +96,10 @@
 
         layer_three {
             bindings = <
-&trans   &trans          &trans          &trans           &trans                             &trans     &trans      &trans        &trans         &kp PRINTSCREEN
-&kp ESC  &kp PG_DN       &kp UP_ARROW    &kp PG_UP        &kp BACKSPACE  &trans      &trans  &kp GRAVE  &kp TILDE   &trans        &trans         &trans
-&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &trans      &trans  &kp COMMA  &kp PERIOD  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN
-&trans   &trans          &trans          &trans           &trans         &trans      &trans  &trans                                              &trans
+&trans   &trans          &trans          &trans           &trans                               &trans     &trans      &trans        &trans         &kp PRINTSCREEN
+&kp ESC  &kp PG_DN       &kp UP_ARROW    &kp PG_UP        &kp BACKSPACE  &trans      &trans    &kp GRAVE  &kp TILDE   &trans        &trans         &trans
+&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &trans      &trans    &kp COMMA  &kp PERIOD  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN
+&trans   &trans          &trans          &trans           &trans         &trans      &kp RALT  &trans                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
